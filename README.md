@@ -7,6 +7,7 @@ usage on linux :
 
   assuming executable prime in the current directory
   ./prime 1000 prints 1000 prime numbers on stdout
+  
   ./prime 1000000 > primes.txt genrates a file with primes upto a million
     included primes.txt as an example
 
