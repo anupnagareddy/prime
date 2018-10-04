@@ -1,6 +1,17 @@
 
 Sieve of Eratosthenes
 
+usage on linux :
+  compile program using
+  g++ prime.cc -o prime or any name you want
+
+  assuming executable prime in the current directory
+  ./prime 1000 prints 1000 prime numbers on stdout
+  ./prime 1000000 > primes.txt genrates a file with primes upto a million
+    included primes.txt as an example
+
+----------------------------------------
+
 In mathematics, the sieve of Eratosthenes is a simple,
 ancient algorithm for finding all prime numbers up to any given limit.
 
@@ -13,7 +24,7 @@ It is one of the most efficient ways to find all of the smaller primes.
 https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
 has an excellent animation of how the prime numbers are marked
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------
 
 Sieve of Eratosthenes flowgraph:
 

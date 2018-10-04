@@ -6,16 +6,6 @@
   takes the maximum number len upto which primes numbers have to be found
   as an argument and prints prime numbers upto len on stdout
 
-  usage on linux :
-    compile program using
-    g++ prime.cc -o prime or any name you want
-
-    assuming executable prime in the current directory
-    ./prime 1000 prints 1000 prime numbers on stdout
-    ./prime 1000000 > primes.txt genrates a file with primes upto a million
-      included primes.txt as an example
-
-    look ar README for more information
 */
 
 /* ----------------------------------------------------------------------------------------------------------------*/
