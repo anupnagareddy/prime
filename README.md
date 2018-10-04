@@ -36,7 +36,7 @@ Sieve of Eratosthenes flowgraph:
 3->  Starting from i, count up in increments of i and mark each of these numbers greater than i itself in the list. These numbers will be 2i, 3i, 4i, etc.;
       Note that some of them may have already been marked.
 
-4->  Find the first number greater than p in the list that is not marked.
+4->  Find the first number greater than i in the list that is not marked.
       If there was no such number then move to step 6.
 
 5->  Otherwise, let i now equal this number (which is the next prime), and repeat from step 3
