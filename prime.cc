@@ -17,7 +17,7 @@
 
 void print(int *buffer,const int &len) {
 // function to print the numbers which havent been marked
-
+//Test
 for (int i=0;i<len;i++) {
   // print only those numbers which are unmarked
   // or which numbers have their corresponding value in the buffer as 0
